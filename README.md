@@ -71,7 +71,7 @@ MNEME_API_KEY = mneme_sk_...
 Optional override:
 
 ```bash
-export MNEME_GATEWAY=https://api.mnemedb.dev   # default
+export MNEME_GATEWAY=https://gateway.mnemedb.dev   # default
 ```
 
 Every skill checks `MNEME_API_KEY` first and fails fast with a helpful message if it's missing.

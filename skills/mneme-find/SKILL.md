@@ -28,7 +28,7 @@ if [ -z "$MNEME_API_KEY" ]; then
   echo "MNEME_API_KEY is not set."
   exit 1
 fi
-GATEWAY="${MNEME_GATEWAY:-https://api.mnemedb.dev}"
+GATEWAY="${MNEME_GATEWAY:-https://gateway.mnemedb.dev}"
 ```
 
 ### 2. Parse the var
